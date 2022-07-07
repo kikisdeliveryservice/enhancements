@@ -192,8 +192,8 @@ Does this process affect:
 
 ### Current Process
 <!--
-Does a current process exist either formally or informally? If so, please briefly describe it. Also
-provide links to any docs/commits that memorialize the current process.
+Does a current process exist either formally or informally? If so, please briefly describe it. 
+Also provide links to any docs/commits that memorialize the current process.
 -->
 
 ## Proposal
@@ -252,7 +252,31 @@ required) or even code snippets. If there's any ambiguity about HOW your
 proposal will be implemented, this is the place to discuss them.
 -->
 
-### Graduation Criteria
+### Graduation Criteria - WIP
+
+Note: Graduation Criteria should depend on the scope/impact. The greater the scope the more
+lead time a change needs to be circulated for both public comments before merging and lead
+time to inform the affected members of the community.
+
+There are 3 general buckets:
+1) A process change goes into effect imediately. This would mostly be reserved for a SIG documenting 
+an undocumented process.
+
+2) A process change goes into effect in the next release. The authors will need to publicize the change,
+but the change mostly affects 1 SIGs and doesn't require bringing disparate groups into agreement. Feedback, iteration
+and adequate notice can happen in the course of 1 release cycle.
+
+3) A process change goes into effect at a future release date. This change requires a period of public feedback and iteration
+and has a large scope/impact. There will also need to be a period of warning of the new policy that should be clearly 
+and thoroughly communicated.
+
+As a process KEP is primarily about communication, we should expect that some process KEPs of type 2 and all process KEPs of type 3
+will need some extra documentation via blogs, tweets, emails to mailing lists, etc... and these should be included
+in the Graduation Criteria explicitly. If a process change with high impact does not have adequate communication, 
+it should not be considered graduated.
+
+Please also flag which supporting SIGs you will need assistance from to faciliate this for example: Contribex, Docs, etc..
+
 
 <!--
 **Note:** *Not required until targeted at a release.*
